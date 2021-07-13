@@ -1,9 +1,22 @@
 /* Import link*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
 
-/* Main part */
-
+/* common styles/ utilities */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDFDFD;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 1050px;
+    /* padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px; */
+}
 
 /*-----------------
     header part 
@@ -25,7 +38,9 @@ h1{
     font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 64px;
-    margin: 0;   
+    font-weight: 700;
+    margin-bottom: 27px;
+    margin-top: 0;  
 }
 .h1-button a{
      color: white;
@@ -35,6 +50,9 @@ h1{
      font-family: 'Poppins', sans-serif;
      font-weight: 500;
 }
+.fa-arrow-right{
+    padding-left: 8px;
+}
 .banner img{
     position: absolute;
     width: 556.01px;
@@ -42,8 +60,44 @@ h1{
     margin-top: 153px;
     margin-bottom: 86px;
     margin-right: 140.99px;  
+    transition: transform 1s ease-in ;
 }
 .banner img:hover{
-    transform: scale(1.1) rotate(20deg);
-    transition: transform 1s linear  ;
+    transform: scale(1.02) rotate(10deg);   
+}
+
+/* Player details part */
+/* .container{
+    display: flex;
+    justify-content: center;
+} */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 10px;
+    margin-top: 70px;
+   
+}
+.player{
+    padding: 15px 15px 33px 15px;
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 313px;
+    height: 256px; 
+}
+.player-details h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #18191F;
+}
+.player-details p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+    line-height: 26px;
 }
