@@ -101,3 +101,39 @@ h1{
     color: #6C6C6C;
     line-height: 26px;
 }
+
+/* footer part */
+.footer-part{
+display: block;
+ margin: 158px 220px 63px 200px;
+}
+.footer-img img{
+    width: 543px;
+    margin-left: 206px;
+}
+.icons{
+    width: fit-content;
+    margin-left: 350px;
+}
+.icons a{
+    padding: 8px;
+    text-align: center;
+}
+.icon{
+    color: darkgray;
+    width: 32px;
+    height: 25px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding-top: 7px;
+}
+.icon:hover{
+    color: blue;
+}
+footer p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
