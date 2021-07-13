@@ -1,0 +1,49 @@
+/* Import link*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+/* Main part */
+
+
+/*-----------------
+    header part 
+ ------------------- */
+ header{
+     width: 100%;
+    }
+ .banner{
+     background-color: #2D25A0;
+     display: flex;
+     height: 677px;   
+ }
+.h1-button{
+    width: 485px;
+    height: 230px;
+    margin: 207px 102px 240px 156px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 64px;
+    margin: 0;   
+}
+.h1-button a{
+     color: white;
+     text-decoration: none;
+     background-color: #E02C6D;
+     padding: 10px 24px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 500;
+}
+.banner img{
+    position: absolute;
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+    margin-bottom: 86px;
+    margin-right: 140.99px;  
+}
+.banner img:hover{
+    transform: scale(1.1) rotate(20deg);
+    transition: transform 1s linear  ;
+}
