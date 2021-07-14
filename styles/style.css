@@ -3,15 +3,9 @@
 
 
 /* common styles/ utilities */
-/* html{
-    display: contents;
-} */
 body{
     margin: 0;
 }
-/* body, html { 
-    overflow-x:hidden; 
-} */
 main{
     display: flex;
     flex-direction: column;
@@ -224,6 +218,9 @@ footer p{
 
 /* mobile screen */
 @media screen and (max-width: 688px) {
+    body, html { 
+        overflow-x:hidden; 
+    }
     .container{
         width: 100%;
     }
@@ -297,6 +294,9 @@ footer p{
 
 /* Tablet screen */
 @media only screen and (min-width:689px) and (max-width:992px) {
+    body, html { 
+        overflow-x:hidden; 
+    }
     .container{
         width: 685px;
     }
