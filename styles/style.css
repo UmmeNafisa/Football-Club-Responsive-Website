@@ -48,6 +48,9 @@ h1{
      font-weight: 500;
      border-radius: 5px;
 }
+.more-button:hover{
+    background-color: rgba(0, 255, 255, 0.712);
+}
 .fa-arrow-right{
     padding-left: 8px;
 }
@@ -82,6 +85,10 @@ h1{
 .player img{
     width: 313px;
     height: 256px; 
+    transition: transform 1s ease-out;
+}
+.player img:hover{
+    transform: scale(1.08);
 }
 .player-details h2{
     font-family: 'Poppins', sans-serif;
@@ -138,7 +145,7 @@ h1{
     width: 220px;
     height: 140px;
     border-bottom: 7px solid;
-    border-image: radial-gradient(blue, rgb(252, 24, 176));
+    border-image: radial-gradient(blue, rgb(238, 42, 189));
     border-image-slice: 1;
     transition: transform 1s ease-out;  
 }
