@@ -120,14 +120,22 @@ h1{
     color: #18191F;
 }
 .videos{
-    margin-left: 105px;
+    /* width:450px;
+    height:200px;  */
+    margin-left: 130px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 5px;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
 }
-.last-two-videos{
-    padding: 20px;   
+iframe{
+    width:345px;
+    height:250px; 
+    transition: transform 1s ease-out;
 }
+iframe:hover{
+    transform: scale(1.08);
+}
+
 
 /* Club news part style */
 .clubs{
