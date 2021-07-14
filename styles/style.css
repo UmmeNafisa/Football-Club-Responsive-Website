@@ -122,10 +122,45 @@ h1{
     padding: 20px;   
 }
 
+/* Club news part style */
+.clubs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  
+}
+.club-logo{
+    width:220px;
+    padding: 15px;
+    margin-left:120px;
+    margin-right: -90px;
+}
+.club-logo img{
+    width: 220px;
+    height: 140px;
+    border-bottom: 7px solid;
+    border-image: radial-gradient(blue, rgb(252, 24, 176));
+    border-image-slice: 1;
+    transition: transform 1s ease-out;  
+}
+.club-logo img:hover{
+    transform: scale(1.1);
+}
+.club-logo a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.club-logo p{
+    color: rgba(255, 0, 0, 0.897);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.club-logo a:hover{
+    color: rgb(243, 17, 54);
+}
 /* footer part */
 .footer-part{
 display: block;
- margin: 158px 220px 63px 200px;
+ margin: 58px 220px 63px 200px;
 }
 .footer-img img{
     width: 543px;
