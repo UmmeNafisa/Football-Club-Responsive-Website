@@ -200,3 +200,73 @@ footer p{
     text-align: center;
 }
 /* media query */
+@media screen and (max-width: 688px) {
+    body {
+      background-color: lightgreen;
+      margin: 0%;
+    }
+    
+    .banner{
+        display: flex;
+        flex-direction: column;
+  }
+  .container{
+      width: 100%;
+  }
+  header{
+    width: 360px;
+    height: 695px;
+  }
+  .h1-button{
+    margin: 112px 66px 20px 16px;
+  }
+  h1{
+      font-size: 36px;
+      margin-right: 198px;
+  }
+  .banner img{
+    width: 329px;
+    height: 260px;
+    margin: 15px 16px 61px 15px
+   
+  }
+  .players, .videos, .clubs{
+      grid-template-columns: repeat(1,1fr);
+  }
+  .players{
+      margin-left: 5px;
+  }
+  .videos-header{
+      margin-bottom: 20px;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      flex-direction: column;
+  }
+  .videos{
+      width: 50%;
+      margin-left: 0%;
+      margin-right: 0%;
+  }
+  .big-video{
+      width:200px;
+      height: 120px;
+  }
+  .club-logo{
+      margin-left: 50px;
+  }
+  .footer-part{
+     margin: 58px 0px 63px -45px;
+    }
+    .footer-img img{
+        width: 60%;
+    margin-left: 70px;
+    }
+    .icons{
+        width: fit-content;
+        margin-left: 100px;
+    }
+  /* .videos{
+    grid-template-columns: repeat(1,1fr);
+  } */
+}
