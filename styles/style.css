@@ -1,7 +1,6 @@
 /* Import link*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
-
 /* common styles/ utilities */
 body{
     margin: 0;
@@ -71,7 +70,7 @@ h1{
     transform: scale(1.02) rotate(10deg);   
 }
 
-/* Player details part */
+/* .......Player details part...... */
 
 .players{
     display: grid;
@@ -108,7 +107,7 @@ h1{
     line-height: 26px;
 }
 
-/* Latest videos part */
+/*.... Latest videos part.... */
 .videos-header{
     width: 100%;
     margin-top: 70px;
@@ -124,8 +123,6 @@ h1{
     color: #18191F;
 }
 .videos{
-    /* width:450px;
-    height:200px;  */
     margin-left: 130px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -140,8 +137,7 @@ iframe:hover{
     transform: scale(1.08);
 }
 
-
-/* Club news part style */
+/*.... Club news part style .......*/
 .clubs{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -176,7 +172,8 @@ iframe:hover{
 .club-logo a:hover{
     color: rgb(243, 17, 54);
 }
-/* footer part */
+
+/*...... footer part....... */
 .footer-part{
 display: block;
  margin: 58px 220px 63px 200px;
@@ -212,6 +209,7 @@ footer p{
     text-align: center;
 }
 
+
 /*....................
       media query
 .................... */
@@ -227,30 +225,29 @@ footer p{
     header{
         width: 100%;
         height: 695px;
-      }
-      .h1-button{
-          width: 100%;
+    }
+    .h1-button{
+        width: 100%;
         margin: 70px 66px 20px 16px;
-      }
-      h1{
-          font-size: 36px;
-          margin-right: 84px;
-      }
+    }
+    h1{
+        font-size: 36px;
+        margin-right: 84px;
+    }
     .banner{
         width: 101%;
         display: flex;
         flex-direction: column;
-  } 
+    } 
   .banner img{
     width: 329px;
     height: 260px;
-    margin: 40px 16px 61px 15px;
-   
-  }
+    margin: 40px 16px 61px 15px; 
+    }
   .players, .videos, .clubs{
       grid-template-columns: repeat(1,1fr);
       grid-column-gap: 0px;
-  }
+    }
   .players{
       margin-left: 13px;
   }
@@ -268,10 +265,10 @@ footer p{
       width: 50%;
       margin-left: 20px;
       grid-row-gap: 10px;
-  }
+    }
   .club-logo{
       margin-left: 70px;
-  }
+    }
   .footer-part{
      margin: 57px 0px 53px -33px;
     }
@@ -288,8 +285,7 @@ footer p{
     }
     .footer-part p{
         margin-left: 55px;
-    }
-   
+    }   
 }
 
 /* Tablet screen */
@@ -303,51 +299,50 @@ footer p{
     header{
         width: 100%;
         height: 550px;
-      }
-      .h1-button{
+    }
+    .h1-button{
           width: 48%;
         margin: 130px 0px 30px 20px;
-      }
-      h1{
+    }
+    h1{
         font-size: 45px;
         margin-right: 30px;
-      }
-      .banner {
+    }
+    .banner {
         width: 100%;
         display: flex;
         flex-direction: row;
         height: 550px;
-      }
-  .banner img{
+    }
+    .banner img{
     width: 344px;
     height: 282px;
-    margin: 123px 16px 61px 15px;
-   
-  }
-  .players, .videos{
+    margin: 123px 16px 61px 15px;  
+    }
+    .players, .videos{
       grid-template-columns: repeat(2,1fr);  
       grid-column-gap: 30px;  
-  }
-  .player img{
+    }
+    .player img{
       width: 100%;
-  }
-  .videos-header{
+    }
+    .videos-header{
       margin-bottom: 20px;
       margin-left: 30px;
       margin-right: 0;
       width: 90%;
-  }
+    }
   .videos{
       width: 50%;
       margin-left: 20px;
       grid-row-gap: 10px;
-  }
+    }
   .clubs{
     grid-template-columns: repeat(2,1fr);    
-}
+    }
   .club-logo{
       margin-left: 70px;
-  }
+    }
   .footer-part{
     text-align: center;
      margin: 58px 0px 63px -45px;
